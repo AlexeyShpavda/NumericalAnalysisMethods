@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simplified Newton method", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Steffensen method", "Steffensen method\Steffensen method.csproj", "{BABEEE6D-B01F-4B22-BD02-EDAC80FDCF9E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chord method", "Chord method\Chord method.csproj", "{B8FDAD91-7A45-488A-92DB-410D75DA07C1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{BABEEE6D-B01F-4B22-BD02-EDAC80FDCF9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BABEEE6D-B01F-4B22-BD02-EDAC80FDCF9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BABEEE6D-B01F-4B22-BD02-EDAC80FDCF9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8FDAD91-7A45-488A-92DB-410D75DA07C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8FDAD91-7A45-488A-92DB-410D75DA07C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8FDAD91-7A45-488A-92DB-410D75DA07C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8FDAD91-7A45-488A-92DB-410D75DA07C1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

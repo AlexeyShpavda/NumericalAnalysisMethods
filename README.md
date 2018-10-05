@@ -5,3 +5,4 @@ Math and C#
 + Classical Newton method
 + Simplified Newton method
 + Steffensen method
++ Chord method
