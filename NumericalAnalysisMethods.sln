@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Steffensen method", "Steffe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chord method", "Chord method\Chord method.csproj", "{B8FDAD91-7A45-488A-92DB-410D75DA07C1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aitken method", "Aitken method\Aitken method.csproj", "{C349C130-8832-4AC9-99CE-3F1D96A53105}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{B8FDAD91-7A45-488A-92DB-410D75DA07C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B8FDAD91-7A45-488A-92DB-410D75DA07C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B8FDAD91-7A45-488A-92DB-410D75DA07C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C349C130-8832-4AC9-99CE-3F1D96A53105}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C349C130-8832-4AC9-99CE-3F1D96A53105}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C349C130-8832-4AC9-99CE-3F1D96A53105}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C349C130-8832-4AC9-99CE-3F1D96A53105}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -6,3 +6,4 @@ Math and C#
 + Simplified Newton method
 + Steffensen method
 + Chord method
++ Aitken method
