@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bisection method", "Bisecti
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Classical Newton method", "Сlassical Newton method\Classical Newton method.csproj", "{0D815D34-B360-4467-97E1-22B43222D8C1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simplified Newton method", "Simplified Newton method\Simplified Newton method.csproj", "{71B25AED-39B9-4372-AB55-50E3C814239C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{0D815D34-B360-4467-97E1-22B43222D8C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0D815D34-B360-4467-97E1-22B43222D8C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0D815D34-B360-4467-97E1-22B43222D8C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71B25AED-39B9-4372-AB55-50E3C814239C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71B25AED-39B9-4372-AB55-50E3C814239C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71B25AED-39B9-4372-AB55-50E3C814239C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71B25AED-39B9-4372-AB55-50E3C814239C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
