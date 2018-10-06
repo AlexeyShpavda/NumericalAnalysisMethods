@@ -7,3 +7,4 @@ Math and C#
 + Steffensen method
 + Chord method
 + Aitken method
++ Fixed Point Iteration method
