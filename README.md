@@ -8,3 +8,4 @@ Math and C#
 + Chord method
 + Aitken method
 + Fixed Point Iteration method
++ Dandelin Lobachesky Graeffe method

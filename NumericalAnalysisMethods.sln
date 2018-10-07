@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aitken method", "Aitken met
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fixed Point Iteration method", "Fixed Point Iteration method\Fixed Point Iteration method.csproj", "{1A949B59-265A-4332-80D8-3329FE5CE864}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dandelin Lobachesky Graeffe method", "Dandelin Lobachesky Graeffe method\Dandelin Lobachesky Graeffe method.csproj", "{4791C791-5100-4B31-B078-5C38FE8A9406}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{1A949B59-265A-4332-80D8-3329FE5CE864}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1A949B59-265A-4332-80D8-3329FE5CE864}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1A949B59-265A-4332-80D8-3329FE5CE864}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4791C791-5100-4B31-B078-5C38FE8A9406}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4791C791-5100-4B31-B078-5C38FE8A9406}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4791C791-5100-4B31-B078-5C38FE8A9406}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4791C791-5100-4B31-B078-5C38FE8A9406}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
