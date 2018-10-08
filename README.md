@@ -9,3 +9,4 @@ Math and C#
 + Aitken method
 + Fixed Point Iteration method
 + Dandelin Lobachesky Graeffe method
++ Newton method for Nonlinear systems

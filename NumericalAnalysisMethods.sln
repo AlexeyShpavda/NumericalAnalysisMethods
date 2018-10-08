@@ -19,6 +19,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fixed Point Iteration metho
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dandelin Lobachesky Graeffe method", "Dandelin Lobachesky Graeffe method\Dandelin Lobachesky Graeffe method.csproj", "{4791C791-5100-4B31-B078-5C38FE8A9406}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Newton method for Nonlinear systems", "Newton method for Nonlinear systems\Newton method for Nonlinear systems.csproj", "{BF6ECF4E-AC99-4A74-BD29-5FE543750C65}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -57,6 +59,10 @@ Global
 		{4791C791-5100-4B31-B078-5C38FE8A9406}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4791C791-5100-4B31-B078-5C38FE8A9406}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4791C791-5100-4B31-B078-5C38FE8A9406}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF6ECF4E-AC99-4A74-BD29-5FE543750C65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF6ECF4E-AC99-4A74-BD29-5FE543750C65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF6ECF4E-AC99-4A74-BD29-5FE543750C65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF6ECF4E-AC99-4A74-BD29-5FE543750C65}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
