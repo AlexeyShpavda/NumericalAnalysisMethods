@@ -10,3 +10,4 @@ Math and C#
 + Fixed Point Iteration method
 + Dandelin Lobachesky Graeffe method
 + Newton method for Nonlinear systems
++ Iterative methods for Systems of Equations
