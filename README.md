@@ -12,3 +12,4 @@ Math and C#
 + Newton method for Nonlinear systems
 + Iterative methods for Systems of Equations
 + Newton Forward Divided Difference method
++ Newton Backward Divided Difference method

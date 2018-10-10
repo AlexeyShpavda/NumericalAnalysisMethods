@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iterative methods for Syste
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Newton Forward Divided Difference method", "Newton Forward Divided Difference method\Newton Forward Divided Difference method.csproj", "{B0D8435E-141E-4126-8BF3-E5FE29E8241A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Newton Backward Divided Difference method", "Newton Backward Divided Difference method\Newton Backward Divided Difference method.csproj", "{96FC1D53-DA39-4FD5-9695-8615E3144A1F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{B0D8435E-141E-4126-8BF3-E5FE29E8241A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B0D8435E-141E-4126-8BF3-E5FE29E8241A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B0D8435E-141E-4126-8BF3-E5FE29E8241A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96FC1D53-DA39-4FD5-9695-8615E3144A1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96FC1D53-DA39-4FD5-9695-8615E3144A1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96FC1D53-DA39-4FD5-9695-8615E3144A1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96FC1D53-DA39-4FD5-9695-8615E3144A1F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
