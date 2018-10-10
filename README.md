@@ -11,3 +11,4 @@ Math and C#
 + Dandelin Lobachesky Graeffe method
 + Newton method for Nonlinear systems
 + Iterative methods for Systems of Equations
++ Newton Forward Divided Difference method
