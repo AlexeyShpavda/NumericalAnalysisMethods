@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Newton Forward Divided Diff
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Newton Backward Divided Difference method", "Newton Backward Divided Difference method\Newton Backward Divided Difference method.csproj", "{96FC1D53-DA39-4FD5-9695-8615E3144A1F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lagrange Interpolating Polynomial", "Lagrange Interpolating Polynomial\Lagrange Interpolating Polynomial.csproj", "{2912B00C-4D05-46CE-A00F-A6E46E5B283F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -81,6 +83,10 @@ Global
 		{96FC1D53-DA39-4FD5-9695-8615E3144A1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{96FC1D53-DA39-4FD5-9695-8615E3144A1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{96FC1D53-DA39-4FD5-9695-8615E3144A1F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2912B00C-4D05-46CE-A00F-A6E46E5B283F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2912B00C-4D05-46CE-A00F-A6E46E5B283F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2912B00C-4D05-46CE-A00F-A6E46E5B283F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2912B00C-4D05-46CE-A00F-A6E46E5B283F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
