@@ -14,3 +14,4 @@ Math and C#
 + Newton Forward Divided Difference method
 + Newton Backward Divided Difference method
 + Lagrange Interpolating Polynomial
++ Aitken Interpolation Algorithm

@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Newton Backward Divided Dif
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lagrange Interpolating Polynomial", "Lagrange Interpolating Polynomial\Lagrange Interpolating Polynomial.csproj", "{2912B00C-4D05-46CE-A00F-A6E46E5B283F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aitken Interpolation Algorithm", "Aitken Interpolation Algorithm\Aitken Interpolation Algorithm.csproj", "{CFEBE8EE-AD6A-4A01-B254-B4843C65DD5A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{2912B00C-4D05-46CE-A00F-A6E46E5B283F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2912B00C-4D05-46CE-A00F-A6E46E5B283F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2912B00C-4D05-46CE-A00F-A6E46E5B283F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFEBE8EE-AD6A-4A01-B254-B4843C65DD5A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFEBE8EE-AD6A-4A01-B254-B4843C65DD5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFEBE8EE-AD6A-4A01-B254-B4843C65DD5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFEBE8EE-AD6A-4A01-B254-B4843C65DD5A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
