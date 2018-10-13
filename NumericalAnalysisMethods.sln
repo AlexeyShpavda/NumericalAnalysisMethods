@@ -5,8 +5,6 @@ VisualStudioVersion = 15.0.28010.2041
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bisection method", "Bisection method\Bisection method.csproj", "{ADE387B1-BD3A-43A2-98B1-D9EB21F25C7C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Classical Newton method", "Сlassical Newton method\Classical Newton method.csproj", "{0D815D34-B360-4467-97E1-22B43222D8C1}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Simplified Newton method", "Simplified Newton method\Simplified Newton method.csproj", "{71B25AED-39B9-4372-AB55-50E3C814239C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Steffensen method", "Steffensen method\Steffensen method.csproj", "{BABEEE6D-B01F-4B22-BD02-EDAC80FDCF9E}"
@@ -31,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lagrange Interpolating Poly
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Aitken Interpolation Algorithm", "Aitken Interpolation Algorithm\Aitken Interpolation Algorithm.csproj", "{CFEBE8EE-AD6A-4A01-B254-B4843C65DD5A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Classical Newton method", "Classical Newton method\Classical Newton method.csproj", "{C19951F7-E8CB-46DC-9D63-F1B82EBF9607}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,10 +41,6 @@ Global
 		{ADE387B1-BD3A-43A2-98B1-D9EB21F25C7C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ADE387B1-BD3A-43A2-98B1-D9EB21F25C7C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ADE387B1-BD3A-43A2-98B1-D9EB21F25C7C}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0D815D34-B360-4467-97E1-22B43222D8C1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0D815D34-B360-4467-97E1-22B43222D8C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0D815D34-B360-4467-97E1-22B43222D8C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0D815D34-B360-4467-97E1-22B43222D8C1}.Release|Any CPU.Build.0 = Release|Any CPU
 		{71B25AED-39B9-4372-AB55-50E3C814239C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{71B25AED-39B9-4372-AB55-50E3C814239C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{71B25AED-39B9-4372-AB55-50E3C814239C}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -93,6 +89,10 @@ Global
 		{CFEBE8EE-AD6A-4A01-B254-B4843C65DD5A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CFEBE8EE-AD6A-4A01-B254-B4843C65DD5A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CFEBE8EE-AD6A-4A01-B254-B4843C65DD5A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C19951F7-E8CB-46DC-9D63-F1B82EBF9607}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C19951F7-E8CB-46DC-9D63-F1B82EBF9607}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C19951F7-E8CB-46DC-9D63-F1B82EBF9607}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C19951F7-E8CB-46DC-9D63-F1B82EBF9607}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
