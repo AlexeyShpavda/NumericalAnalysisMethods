@@ -18,12 +18,12 @@ namespace Steffensen_method
             const double Fault = 0.00005;
             const double X0 = 0.5;
 
-            Methods.Function func = F;
+            Method.Function func = F;
 
-            Tuple<double, double> Result = Methods.SteffensenMethod(func, X0, Fault);
+            Solution Result = Method.Steffensen(func, X0, Fault);
 
-            Console.WriteLine($"Solution - {Result.Item1}");
-            Console.WriteLine($"Number of Iterations -  {Result.Item2}");
+            Console.WriteLine($"Approximate Root - {Result.ApproximateRoot}");
+            Console.WriteLine($"Number of Iterations -  {Result.IterationsNumber}");
 
             Console.ReadKey();
         }

@@ -22,7 +22,7 @@ namespace Сlassical_Newton_method
             Methods.Function func = F;
             Methods.Function funcDerivative = dF;
 
-            Tuple<double, double> Result = Methods.NewtonMethod(func, funcDerivative, X0, Fault);
+            Tuple<double, double> Result = Methods.СlassicalNewtonMethod(func, funcDerivative, X0, Fault);
 
             Console.WriteLine($"Solution - {Result.Item1}");
             Console.WriteLine($"Number of Iterations -  {Result.Item2}");

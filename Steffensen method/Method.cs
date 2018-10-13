@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 
 namespace Steffensen_method
 {
-    static class Methods
+    static class Method
     {
         public delegate double Function(double x);
 
-        public static Tuple<double, double> SteffensenMethod(Function func, double x, double fault)
+        public static Solution Steffensen(Function func, double x, double fault)
         {
-            int iterationsNumber = 0;
+            ushort iterationsNumber = 0;
 
             while (Math.Abs(func(x)) > fault)
             {
@@ -20,7 +20,7 @@ namespace Steffensen_method
                 iterationsNumber++;
             }
 
-            return new Tuple<double, double>(x, iterationsNumber);
+            return new Solution(x, iterationsNumber);
         }
     }
 }

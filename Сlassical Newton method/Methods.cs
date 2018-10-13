@@ -10,7 +10,7 @@ namespace Сlassical_Newton_method
     {
         public delegate double Function(double x);
 
-        public static Tuple<double, double> NewtonMethod(Function func, Function funcDerivative, double x, double fault)
+        public static Tuple<double, double> СlassicalNewtonMethod(Function func, Function funcDerivative, double x, double fault)
         {
             int iterationsNumber = 0;
 
