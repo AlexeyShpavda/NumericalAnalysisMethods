@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 
 namespace Simplified_Newton_method
 {
-    static class Methods
+    static class Method
     {
         public delegate double Function(double x);
 
-        public static Tuple<double, double> SimplifiedNewtonMethod(Function func, Function funcDerivative, double x, double fault)
+        public static Solution SimplifiedNewton(Function func, Function funcDerivative, double x, double fault)
         {
-            int iterationsNumber = 0;
+            uint iterationsNumber = 0;
             double x0 = x;
 
             while (Math.Abs(func(x)) > fault)
@@ -21,7 +21,7 @@ namespace Simplified_Newton_method
                 iterationsNumber++;
             }
 
-            return new Tuple<double, double>(x, iterationsNumber);
+            return new Solution(x, iterationsNumber);
         }
     }
 }

@@ -20,16 +20,16 @@ namespace Simplified_Newton_method
 
         static void Main()
         {
-            const double Fault = 0.00005;
+            const double Fault = 0.00001;
             const double X0 = 0.5;
 
-            Methods.Function func = F;
-            Methods.Function funcDerivative = dF;
+            Method.Function func = F;
+            Method.Function funcDerivative = dF;
 
-            Tuple<double, double> Result = Methods.SimplifiedNewtonMethod(func, funcDerivative, X0, Fault);
+            Solution result = Method.SimplifiedNewton(func, funcDerivative, X0, Fault);
 
-            Console.WriteLine($"Solution - {Result.Item1}");
-            Console.WriteLine($"Number of Iterations -  {Result.Item2}");
+            Console.WriteLine($"Approximate Root - {result.ApproximateRoot}");
+            Console.WriteLine($"Number of Iterations -  {result.IterationsNumber}");
 
             Console.ReadKey();
         }
