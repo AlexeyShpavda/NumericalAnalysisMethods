@@ -15,15 +15,15 @@ namespace Steffensen_method
 
         static void Main()
         {
-            const double Fault = 0.00005;
+            const double Fault = 0.00001;
             const double X0 = 0.5;
 
             Method.Function func = F;
 
-            Solution Result = Method.Steffensen(func, X0, Fault);
+            Solution result = Method.Steffensen(func, X0, Fault);
 
-            Console.WriteLine($"Approximate Root - {Result.ApproximateRoot}");
-            Console.WriteLine($"Number of Iterations -  {Result.IterationsNumber}");
+            Console.WriteLine($"Approximate Root - {result.ApproximateRoot}");
+            Console.WriteLine($"Number of Iterations -  {result.IterationsNumber}");
 
             Console.ReadKey();
         }
