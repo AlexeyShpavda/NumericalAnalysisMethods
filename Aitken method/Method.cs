@@ -6,37 +6,36 @@ using System.Threading.Tasks;
 
 namespace Aitken_method
 {
-    static class Methods
+    static class Method
     {
         public delegate double Function(double x);
         private delegate double SpecialFormula();
 
-        public static Tuple<double, double> AitkenMethod(Function func, Function funcDerivative, double leftBorder, double rightBorder, double fault)
+        public static Solution Aitken(Function func, Function funcDerivative, double leftBorder, double rightBorder, double fault)
         {
-            Function usedFunction = (double x) => x - (1 / (funcDerivative(x))) * func(x);
+            Function usedFunction = (double xH) => xH - (1 / (funcDerivative(xH))) * func(xH);
 
             double x0 = (leftBorder + rightBorder) / 2;
             double x1 = usedFunction(x0);
             double x2 = usedFunction(x1);
             SpecialFormula specialFormula = () => (x0 * x2 - x1 * x1) / (x2 - 2 * x1 + x0);
             double xHatch = specialFormula();
-            double solution = usedFunction(xHatch);
+            double x = usedFunction(xHatch);
 
-            int iterationsNumber = 0;
+            uint iterationsNumber = 1;
 
-            while (Math.Abs(func(solution)) > fault)
+            while (Math.Abs(func(x)) > fault)
             {
                 x0 = xHatch;
                 x2 = usedFunction(x1);
-                x1 = solution;
+                x1 = x;
                 xHatch = specialFormula();
-                solution = usedFunction(xHatch);
+                x = usedFunction(xHatch);
 
                 iterationsNumber++;
-
             }
 
-            return new Tuple<double, double>(solution, iterationsNumber);
+            return new Solution(x, iterationsNumber);
         }
     }
 }
