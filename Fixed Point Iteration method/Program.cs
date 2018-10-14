@@ -20,17 +20,17 @@ namespace Fixed_Point_Iteration_method
 
         static void Main()
         {
-            const double Fault = 0.00005;
+            const double Fault = 0.00001;
             const double LeftBorder = 0;
             const double RightBorder = 1;
 
-            Methods.Function func = F;
-            Methods.Function funcDerivative = dF;
+            Method.Function func = F;
+            Method.Function funcDerivative = dF;
 
-            Tuple<double, double> Result = Methods.FixedPointIterationMethod(func, funcDerivative, LeftBorder, RightBorder, Fault);
+            Solution result = Method.FixedPointIteration(func, funcDerivative, LeftBorder, RightBorder, Fault);
 
-            Console.WriteLine($"Solution - {Result.Item1}");
-            Console.WriteLine($"Number of Iterations -  {Result.Item2}");
+            Console.WriteLine($"Approximate Root - {result.ApproximateRoot}");
+            Console.WriteLine($"Number of Iterations -  {result.IterationsNumber}");
 
             Console.ReadKey();
         }
