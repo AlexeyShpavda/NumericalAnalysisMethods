@@ -16,7 +16,7 @@ namespace Newton_method_for_Nonlinear_systems
 
             System system = new System();
 
-            Solution result = Methods.NewtonMethodForNonlinearSystems(system, X0, Y0, Fault);
+            Solution result = Method.NewtonMethodForNonlinearSystems(system, X0, Y0, Fault);
 
             Console.WriteLine($"X - {result.X}");
             Console.WriteLine($"Y - {result.Y}");

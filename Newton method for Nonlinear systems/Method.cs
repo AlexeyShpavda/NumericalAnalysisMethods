@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Newton_method_for_Nonlinear_systems
 {
-    static class Methods
+    static class Method
     {
         static public Solution NewtonMethodForNonlinearSystems(System system, double x, double y, double fault)
         {
