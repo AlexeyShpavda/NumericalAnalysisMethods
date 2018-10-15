@@ -8,7 +8,7 @@ namespace Newton_method_for_Nonlinear_systems
 {
     static class Methods
     {
-        static public Tuple<double, double, uint> NewtonMethodForNonlinearSystems(System system, double x, double y, double fault)
+        static public Solution NewtonMethodForNonlinearSystems(System system, double x, double y, double fault)
         {
             uint iterationsNumber = 0;
 
@@ -23,7 +23,7 @@ namespace Newton_method_for_Nonlinear_systems
                 iterationsNumber++;
             }
 
-            return new Tuple<double, double, uint>(x, y, iterationsNumber);
+            return new Solution(x, y, iterationsNumber);
         }
     }
 }
