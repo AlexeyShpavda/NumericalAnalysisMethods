@@ -10,9 +10,9 @@ namespace Newton_method_for_Nonlinear_systems
     {
         static void Main()
         {
-            const double Fault = 0.000000005;
-            const double X0 = 0.8;
-            const double Y0 = 0.8;
+            const double Fault = 0.00001;
+            const double X0 = 0.5;
+            const double Y0 = 1.0;
 
             System system = new System();
 
