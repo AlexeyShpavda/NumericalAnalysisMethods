@@ -25,17 +25,17 @@ namespace Chord_method
 
         static void Main()
         {
-            const double Fault = 0.00005;
+            const double Fault = 0.00001;
             const double LeftBorder = 0;
             const double RightBorder = 1;
 
             Methods.Function func = F;
             Methods.Function secondFunctionDerivative = ddF;
 
-            Tuple<double, double> Result = Methods.ChordMethod(func, secondFunctionDerivative, LeftBorder, RightBorder, Fault);
+            Solution result = Methods.ChordMethod(func, secondFunctionDerivative, LeftBorder, RightBorder, Fault);
 
-            Console.WriteLine($"Solution - {Result.Item1}");
-            Console.WriteLine($"Number of Iterations -  {Result.Item2}");
+            Console.WriteLine($"Approximate Root - {result.ApproximateRoot}");
+            Console.WriteLine($"Number of Iterations -  {result.IterationsNumber}");
 
             Console.ReadKey();
         }

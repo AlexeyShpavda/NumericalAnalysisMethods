@@ -10,10 +10,10 @@ namespace Chord_method
     {
         public delegate double Function(double x);
 
-        public static Tuple<double, double> ChordMethod(Function func, Function secondDerivative, double leftBorder, double rightBorder, double fault)
+        public static Solution ChordMethod(Function func, Function secondDerivative, double leftBorder, double rightBorder, double fault)
         {
             double solution = (leftBorder + rightBorder) / 2;
-            int iterationsNumber = 0;
+            uint iterationsNumber = 0;
             bool isSecondDerivativePositive = secondDerivative(solution) >= 0;
             Function usedFunction;
 
@@ -32,7 +32,7 @@ namespace Chord_method
                 iterationsNumber++;
             }
 
-            return new Tuple<double, double>(solution, iterationsNumber);
+            return new Solution(solution, iterationsNumber);
         }
     }
 }
