@@ -37,23 +37,23 @@ namespace Least_Squares_Method
             chart.Series[5].ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
 
             Sum sum = new Sum();
-            Tuple<List<double>, List<double>> pointSet;
+            PointsSetTwoDimensionalSpace pointsSet;
             chart.Series[0].Points.DataBindXY(xArray, yArray);
 
-            pointSet = PointSearch.LookForPointsUsingLinearFunction(sum, xArray, yArray);
-            chart.Series[1].Points.DataBindXY(pointSet.Item1, pointSet.Item2);
+            pointsSet = PointSearch.LookForPointsUsingLinearFunction(sum, xArray, yArray);
+            chart.Series[1].Points.DataBindXY(pointsSet.X, pointsSet.Y);
 
-            pointSet = PointSearch.LookForPointsUsingQuadraticFunction(sum, xArray, yArray);
-            chart.Series[2].Points.DataBindXY(pointSet.Item1, pointSet.Item2);
+            pointsSet = PointSearch.LookForPointsUsingQuadraticFunction(sum, xArray, yArray);
+            chart.Series[2].Points.DataBindXY(pointsSet.X, pointsSet.Y);
 
-            pointSet = PointSearch.LookForPointsUsingExponentialFunction(sum, xArray, yArray);
-            chart.Series[3].Points.DataBindXY(pointSet.Item1, pointSet.Item2);
+            pointsSet = PointSearch.LookForPointsUsingExponentialFunction(sum, xArray, yArray);
+            chart.Series[3].Points.DataBindXY(pointsSet.X, pointsSet.Y);
 
-            pointSet = PointSearch.LookForPointsUsingLogarithmicFunction(sum, xArray, yArray);
-            chart.Series[4].Points.DataBindXY(pointSet.Item1, pointSet.Item2);
+            pointsSet = PointSearch.LookForPointsUsingLogarithmicFunction(sum, xArray, yArray);
+            chart.Series[4].Points.DataBindXY(pointsSet.X, pointsSet.Y);
 
-            pointSet = PointSearch.LookForPointsUsingHyperbolicFunction(sum, xArray, yArray);
-            chart.Series[5].Points.DataBindXY(pointSet.Item1, pointSet.Item2);
+            pointsSet = PointSearch.LookForPointsUsingHyperbolicFunction(sum, xArray, yArray);
+            chart.Series[5].Points.DataBindXY(pointsSet.X, pointsSet.Y);
         }
     }
 }
