@@ -15,9 +15,9 @@ namespace Bisection_method
             const double LeftBorder = 0;
             const double RightBorder = 1;
 
-            Methods.Function func = F;
+            Method.Function func = F;
 
-            Solution result = Methods.BisectionMethod(func, LeftBorder, RightBorder, Fault);
+            Solution result = Method.BisectionMethod(func, LeftBorder, RightBorder, Fault);
 
             Console.WriteLine($"Approximate Root - {result.ApproximateRoot}");
             Console.WriteLine($"Number of Iterations -  {result.IterationsNumber}");

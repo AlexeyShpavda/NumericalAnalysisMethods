@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Bisection_method
 {
-    static class Methods
+    static class Method
     {
         public delegate double Function(double x);
 
