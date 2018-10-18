@@ -28,7 +28,7 @@ namespace Classical_Newton_method
 
             Solution result = Method.ClassicalNewton(func, funcDerivative, X0, Fault);
 
-            Console.WriteLine($"Solution - {result.ApproximateRoot}");
+            Console.WriteLine($"Approximate Root - {result.ApproximateRoot}");
             Console.WriteLine($"Number of Iterations -  {result.IterationsNumber}");
 
             Console.ReadKey();
