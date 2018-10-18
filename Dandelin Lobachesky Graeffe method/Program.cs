@@ -20,7 +20,7 @@ namespace Dandelin_Lobachesky_Graeffe_method
 
             Methods.Function func = F;
 
-            List<double> result = Methods.DandelinLobacheskyGraeffeMethod(func, polynomialCoefficients, Fault);
+            ICollection<double> result = Methods.DandelinLobacheskyGraeffeMethod(func, polynomialCoefficients, Fault);
 
             foreach (var x in result)
             {
