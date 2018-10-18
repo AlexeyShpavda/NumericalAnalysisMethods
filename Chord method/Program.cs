@@ -29,10 +29,10 @@ namespace Chord_method
             const double LeftBorder = 0;
             const double RightBorder = 1;
 
-            Methods.Function func = F;
-            Methods.Function secondFunctionDerivative = ddF;
+            Method.Function func = F;
+            Method.Function secondFunctionDerivative = ddF;
 
-            Solution result = Methods.ChordMethod(func, secondFunctionDerivative, LeftBorder, RightBorder, Fault);
+            Solution result = Method.ChordMethod(func, secondFunctionDerivative, LeftBorder, RightBorder, Fault);
 
             Console.WriteLine($"Approximate Root - {result.ApproximateRoot}");
             Console.WriteLine($"Number of Iterations -  {result.IterationsNumber}");
