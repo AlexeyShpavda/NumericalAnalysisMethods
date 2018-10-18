@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Dandelin_Lobachesky_Graeffe_method
 {
-    static class Methods
+    static class Method
     {
         public delegate double Function(double x);
 
