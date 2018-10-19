@@ -8,9 +8,7 @@ namespace Steffensen_method
 {
     static class Method
     {
-        public delegate double Function(double x);
-
-        public static Solution Steffensen(Function func, double x, double fault)
+        public static Solution Steffensen(Func<double, double> func, double x, double fault)
         {
             ushort iterationsNumber = 0;
 

@@ -8,9 +8,8 @@ namespace Classical_Newton_method
 {
     class Method
     {
-        public delegate double Function(double x);
-
-        public static Solution ClassicalNewton(Function func, Function funcDerivative, double x, double fault)
+        public static Solution ClassicalNewton(Func<double, double> func,
+            Func<double, double> funcDerivative, double x, double fault)
         {
             uint iterationsNumber = 0;
 

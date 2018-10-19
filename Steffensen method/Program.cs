@@ -18,7 +18,7 @@ namespace Steffensen_method
             const double Fault = 0.00001;
             const double X0 = 0.5;
 
-            Method.Function func = F;
+            Func<double, double> func = F;
 
             Solution result = Method.Steffensen(func, X0, Fault);
 
