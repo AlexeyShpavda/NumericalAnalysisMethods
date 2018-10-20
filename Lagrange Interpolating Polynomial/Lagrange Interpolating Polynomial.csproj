@@ -53,7 +53,7 @@
     <Compile Include="Graph.Designer.cs">
       <DependentUpon>Graph.cs</DependentUpon>
     </Compile>
-    <Compile Include="Methods.cs" />
+    <Compile Include="Method.cs" />
     <Compile Include="PointsSearch.cs" />
     <Compile Include="PointsSetTwoDimensionalSpace.cs" />
     <Compile Include="Program.cs" />

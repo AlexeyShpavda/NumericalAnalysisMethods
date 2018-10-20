@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Lagrange_Interpolating_Polynomial
 {
-    static class Methods
+    static class Method
     {
         private static double BasicPolynomial(double x, double[] xArray, int i)
         {

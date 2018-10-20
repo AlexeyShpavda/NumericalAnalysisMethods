@@ -17,7 +17,7 @@ namespace Lagrange_Interpolating_Polynomial
             for (var i = leftBorder; i <= rightBorder; i += step)
             {
                 x.Add(i);
-                y.Add(Methods.LagrangeInterpolatingPolynomial(i, xArray, yArray));
+                y.Add(Method.LagrangeInterpolatingPolynomial(i, xArray, yArray));
             }
 
             return new PointsSetTwoDimensionalSpace(x, y);
