@@ -16,11 +16,11 @@ namespace Iterative_method_for_Systems_of_Equations
 
             System system = new System();
 
-            Tuple<double, double, uint> result = Method.IterativeMethodsForSystemsOfEquations(system, X0, Y0, Fault);
+            Solution result = Method.IterativeMethodForSystemsOfEquations(system, X0, Y0, Fault);
 
-            Console.WriteLine($"X - {result.Item1}");
-            Console.WriteLine($"Y - {result.Item2}");
-            Console.WriteLine($"Number of Iterations -  {result.Item3}");
+            Console.WriteLine($"X - {result.X}");
+            Console.WriteLine($"Y - {result.Y}");
+            Console.WriteLine($"Number of Iterations -  {result.IterationsNumber}");
 
             Console.ReadKey();
         }

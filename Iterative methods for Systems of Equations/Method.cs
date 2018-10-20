@@ -13,7 +13,7 @@ namespace Iterative_method_for_Systems_of_Equations
             return c[0] * system.f1(x, y) + c[1] * system.f2(x, y);
         }
 
-        static public Tuple<double, double, uint> IterativeMethodsForSystemsOfEquations(System system, double x, double y, double fault)
+        static public Solution IterativeMethodForSystemsOfEquations(System system, double x, double y, double fault)
         {
             uint iterationsNumber = 0;
 
@@ -33,7 +33,7 @@ namespace Iterative_method_for_Systems_of_Equations
                 iterationsNumber++;
             }
 
-            return new Tuple<double, double, uint>(x, y, iterationsNumber);
+            return new Solution(x, y, iterationsNumber);
         }
     }
 }

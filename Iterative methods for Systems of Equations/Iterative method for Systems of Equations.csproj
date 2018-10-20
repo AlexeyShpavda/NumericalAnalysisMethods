@@ -6,8 +6,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{33DAB44C-4990-404F-A579-62FC50B6706D}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Iterative_methods_for_Systems_of_Equations</RootNamespace>
-    <AssemblyName>Iterative methods for Systems of Equations</AssemblyName>
+    <RootNamespace>Iterative_method_for_Systems_of_Equations</RootNamespace>
+    <AssemblyName>Iterative method for Systems of Equations</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -49,6 +49,7 @@
     <Compile Include="Method.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Solution.cs" />
     <Compile Include="System.cs" />
   </ItemGroup>
   <ItemGroup>
