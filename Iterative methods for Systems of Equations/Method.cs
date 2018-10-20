@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Iterative_methods_for_Systems_of_Equations
+namespace Iterative_method_for_Systems_of_Equations
 {
-    static class Methods
+    static class Method
     {
         static private double UsedFunction(System system, double x, double y, double[] c)
         {

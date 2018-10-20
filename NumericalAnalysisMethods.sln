@@ -19,7 +19,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dandelin Lobachesky Graeffe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Newton method for Nonlinear systems", "Newton method for Nonlinear systems\Newton method for Nonlinear systems.csproj", "{BF6ECF4E-AC99-4A74-BD29-5FE543750C65}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iterative methods for Systems of Equations", "Iterative methods for Systems of Equations\Iterative methods for Systems of Equations.csproj", "{33DAB44C-4990-404F-A579-62FC50B6706D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iterative method for Systems of Equations", "Iterative methods for Systems of Equations\Iterative method for Systems of Equations.csproj", "{33DAB44C-4990-404F-A579-62FC50B6706D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Newton Forward Divided Difference method", "Newton Forward Divided Difference method\Newton Forward Divided Difference method.csproj", "{B0D8435E-141E-4126-8BF3-E5FE29E8241A}"
 EndProject

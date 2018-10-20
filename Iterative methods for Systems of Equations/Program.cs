@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Iterative_methods_for_Systems_of_Equations
+namespace Iterative_method_for_Systems_of_Equations
 {
     class Program
     {
@@ -16,7 +16,7 @@ namespace Iterative_methods_for_Systems_of_Equations
 
             System system = new System();
 
-            Tuple<double, double, uint> result = Methods.IterativeMethodsForSystemsOfEquations(system, X0, Y0, Fault);
+            Tuple<double, double, uint> result = Method.IterativeMethodsForSystemsOfEquations(system, X0, Y0, Fault);
 
             Console.WriteLine($"X - {result.Item1}");
             Console.WriteLine($"Y - {result.Item2}");
