@@ -8,19 +8,19 @@ namespace Lagrange_Interpolating_Polynomial
 {
     static class PointSearch
     {
-        public static Tuple<List<double>, List<double>> LookForPointsUsingLagrangeInterpolationFormula(
+        public static PointsSetTwoDimensionalSpace LookForPointsUsingLagrangeInterpolationFormula(
             float leftBorder, float rightBorder, float step, double[] xArray, double[] yArray)
         {
-            List<double> xs = new List<double>();
-            List<double> ys = new List<double>();
+            List<double> x = new List<double>();
+            List<double> y = new List<double>();
 
             for (var i = leftBorder; i <= rightBorder; i += step)
             {
-                xs.Add(i);
-                ys.Add(Methods.LagrangeInterpolatingPolynomial(i, xArray, yArray));
+                x.Add(i);
+                y.Add(Methods.LagrangeInterpolatingPolynomial(i, xArray, yArray));
             }
 
-            return new Tuple<List<double>, List<double>>(xs, ys);
+            return new PointsSetTwoDimensionalSpace(x, y);
         }
     }
 }

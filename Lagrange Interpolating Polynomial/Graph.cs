@@ -25,10 +25,10 @@ namespace Lagrange_Interpolating_Polynomial
 
             LagrangePolynomial.Series[0].ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
 
-            Tuple<List<double>, List<double>> pointSet = PointSearch.LookForPointsUsingLagrangeInterpolationFormula(
+            PointsSetTwoDimensionalSpace pointsSet = PointSearch.LookForPointsUsingLagrangeInterpolationFormula(
                 LeftBorder, RightBorder, Step, xArray, yArray);
 
-            LagrangePolynomial.Series[0].Points.DataBindXY(pointSet.Item1, pointSet.Item2);
+            LagrangePolynomial.Series[0].Points.DataBindXY(pointsSet.X, pointsSet.Y);
         }
     }
 }
