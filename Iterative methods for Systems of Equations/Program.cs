@@ -10,9 +10,9 @@ namespace Iterative_methods_for_Systems_of_Equations
     {
         static void Main()
         {
-            const double X0 = 0.5;
-            const double Y0 = 0.5;
-            const double Fault = 0.000000005;
+            const double X0 = 0.0;
+            const double Y0 = 1.5;
+            const double Fault = 0.00001;
 
             System system = new System();
 
