@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Lagrange_Interpolating_Polynomial
 {
-    static class PointSearch
+    static class PointsSearch
     {
         public static PointsSetTwoDimensionalSpace LookForPointsUsingLagrangeInterpolationFormula(
             float leftBorder, float rightBorder, float step, double[] xArray, double[] yArray)
