@@ -8,14 +8,13 @@ namespace Chord_method
 {
     static class Method
     {
-        public delegate double Function(double x);
-
-        public static Solution ChordMethod(Function func, Function secondDerivative, double leftBorder, double rightBorder, double fault)
+        public static Solution ChordMethod(Func<double, double> func, Func<double, double>
+            secondDerivative, double leftBorder, double rightBorder, double fault)
         {
             double solution = (leftBorder + rightBorder) / 2;
             uint iterationsNumber = 0;
             bool isSecondDerivativePositive = secondDerivative(solution) >= 0;
-            Function usedFunction;
+            Func<double, double> usedFunction;
 
             if (isSecondDerivativePositive)
             {

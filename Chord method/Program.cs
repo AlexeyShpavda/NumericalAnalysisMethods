@@ -29,8 +29,8 @@ namespace Chord_method
             const double LeftBorder = 0;
             const double RightBorder = 1;
 
-            Method.Function func = F;
-            Method.Function secondFunctionDerivative = ddF;
+            Func<double, double> func = F;
+            Func<double, double> secondFunctionDerivative = ddF;
 
             Solution result = Method.ChordMethod(func, secondFunctionDerivative, LeftBorder, RightBorder, Fault);
 
