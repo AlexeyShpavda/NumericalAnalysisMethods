@@ -25,10 +25,10 @@ namespace Newton_Forward_Divided_Difference_method
 
             NewtonPolynomial.Series[0].ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
 
-            PointsSetTwoDimensionalSpace pointSet = PointSearch.LookForPointsUsingForwardNewtonFormula(
+            PointsSetTwoDimensionalSpace pointsSet = PointsSearch.LookForPointsUsingForwardNewtonFormula(
                 LeftBorder, RightBorder, Step, xArray, yArray);
 
-            NewtonPolynomial.Series[0].Points.DataBindXY(pointSet.X, pointSet.Y);
+            NewtonPolynomial.Series[0].Points.DataBindXY(pointsSet.X, pointsSet.Y);
         }
     }
 }
