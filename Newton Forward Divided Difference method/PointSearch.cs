@@ -8,19 +8,19 @@ namespace Newton_Forward_Divided_Difference_method
 {
     static class PointSearch
     {
-        public static Tuple<List<double>, List<double>> LookForPointsUsingForwardNewtonFormula(
+        public static PointsSetTwoDimensionalSpace LookForPointsUsingForwardNewtonFormula(
             float leftBorder, float rightBorder, float step, double[] xArray, double[] yArray)
         {
-            List<double> xs = new List<double>();
-            List<double> ys = new List<double>();
+            List<double> x = new List<double>();
+            List<double> y = new List<double>();
 
             for (var i = leftBorder; i <= rightBorder; i += step)
             {
-                xs.Add(i);
-                ys.Add(Methods.NewtonForwardMethod(i, xArray.Length, xArray, yArray, step));
+                x.Add(i);
+                y.Add(Methods.NewtonForwardMethod(i, xArray.Length, xArray, yArray, step));
             }
 
-            return new Tuple<List<double>, List<double>>(xs, ys);
+            return new PointsSetTwoDimensionalSpace(x, y);
         }
     }
 }
