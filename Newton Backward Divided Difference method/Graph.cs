@@ -25,7 +25,7 @@ namespace Newton_Backward_Divided_Difference_method
 
             NewtonPolynomial.Series[0].ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
 
-            PointsSetTwoDimensionalSpace pointsSet = PointSearch.LookForPointsUsingBackwardNewtonFormula(
+            PointsSetTwoDimensionalSpace pointsSet = PointsSearch.LookForPointsUsingBackwardNewtonFormula(
                 LeftBorder, RightBorder, Step, xArray, yArray);
 
             NewtonPolynomial.Series[0].Points.DataBindXY(pointsSet.X, pointsSet.Y);

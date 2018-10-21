@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Newton_Backward_Divided_Difference_method
 {
-    static class PointSearch
+    static class PointsSearch
     {
         public static PointsSetTwoDimensionalSpace LookForPointsUsingBackwardNewtonFormula(
             float leftBorder, float rightBorder, float step, double[] xArray, double[] yArray)
@@ -17,7 +17,7 @@ namespace Newton_Backward_Divided_Difference_method
             for (var i = leftBorder; i <= rightBorder; i += step)
             {
                 x.Add(i);
-                y.Add(Methods.NewtonBackwardMethod(i, xArray.Length, xArray, yArray, step));
+                y.Add(Method.NewtonBackwardMethod(i, xArray.Length, xArray, yArray, step));
             }
 
             return new PointsSetTwoDimensionalSpace(x, y);

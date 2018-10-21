@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Newton_Backward_Divided_Difference_method
 {
-    static class Methods
+    static class Method
     {
         static private double[,] FillingTable(double[] xArray, double[] yArray, int numberOfLines)
         {
