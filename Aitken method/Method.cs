@@ -8,17 +8,15 @@ namespace Aitken_method
 {
     static class Method
     {
-        public delegate double Function(double x);
-        private delegate double SpecialFormula();
-
-        public static Solution Aitken(Function func, Function funcDerivative, double leftBorder, double rightBorder, double fault)
+        public static Solution Aitken(Func<double, double> func, Func<double, double> funcDerivative,
+            double leftBorder, double rightBorder, double fault)
         {
-            Function usedFunction = (double xH) => xH - (1 / (funcDerivative(xH))) * func(xH);
+            Func<double, double> usedFunction = (double xH) => xH - (1 / (funcDerivative(xH))) * func(xH);
 
             double x0 = (leftBorder + rightBorder) / 2;
             double x1 = usedFunction(x0);
             double x2 = usedFunction(x1);
-            SpecialFormula specialFormula = () => (x0 * x2 - x1 * x1) / (x2 - 2 * x1 + x0);
+            Func<double> specialFormula = () => (x0 * x2 - x1 * x1) / (x2 - 2 * x1 + x0);
             double xHatch = specialFormula();
             double x = usedFunction(xHatch);
 
