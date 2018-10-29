@@ -15,7 +15,7 @@ namespace Bisection_method
             const double LeftBorder = 0;
             const double RightBorder = 1;
 
-            Method.Function func = F;
+            Func<double, double> func = F;
 
             Solution result = Method.BisectionMethod(func, LeftBorder, RightBorder, Fault);
 

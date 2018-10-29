@@ -8,9 +8,7 @@ namespace Bisection_method
 {
     static class Method
     {
-        public delegate double Function(double x);
-
-        public static Solution BisectionMethod(Function func, double leftBorder, double rightBorder, double fault)
+        public static Solution BisectionMethod(Func<double, double> func, double leftBorder, double rightBorder, double fault)
         {
             double solution = (leftBorder + rightBorder) / 2;
             uint iterationsNumber = 0;
