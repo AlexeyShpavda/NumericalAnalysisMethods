@@ -8,9 +8,7 @@ namespace Dandelin_Lobachesky_Graeffe_method
 {
     static class Method
     {
-        public delegate double Function(double x);
-
-        public static List<double> DandelinLobacheskyGraeffeMethod(Function func, double[] polynomialCoefficients, double fault)
+        public static List<double> DandelinLobacheskyGraeffeMethod(Func<double, double> func, double[] polynomialCoefficients, double fault)
         {
             ushort iteration = 1;
 

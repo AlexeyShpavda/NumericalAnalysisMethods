@@ -18,7 +18,7 @@ namespace Dandelin_Lobachesky_Graeffe_method
             double[] polynomialCoefficients = {1, 0, -12, 6 };
             const double Fault = 0.00005;
 
-            Method.Function func = F;
+            Func<double, double> func = F;
 
             ICollection<double> result = Method.DandelinLobacheskyGraeffeMethod(func, polynomialCoefficients, Fault);
 
