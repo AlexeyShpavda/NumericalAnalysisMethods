@@ -24,8 +24,8 @@ namespace Fixed_Point_Iteration_method
             const double LeftBorder = 0;
             const double RightBorder = 1;
 
-            Method.Function func = F;
-            Method.Function funcDerivative = dF;
+            Func<double, double> func = F;
+            Func<double, double> funcDerivative = dF;
 
             Solution result = Method.FixedPointIteration(func, funcDerivative, LeftBorder, RightBorder, Fault);
 
