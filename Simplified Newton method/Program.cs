@@ -23,8 +23,8 @@ namespace Simplified_Newton_method
             const double Fault = 0.00001;
             const double X0 = 0.5;
 
-            Method.Function func = F;
-            Method.Function funcDerivative = dF;
+            Func<double, double> func = F;
+            Func<double, double> funcDerivative = dF;
 
             Solution result = Method.SimplifiedNewton(func, funcDerivative, X0, Fault);
 

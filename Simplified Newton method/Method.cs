@@ -8,9 +8,8 @@ namespace Simplified_Newton_method
 {
     static class Method
     {
-        public delegate double Function(double x);
-
-        public static Solution SimplifiedNewton(Function func, Function funcDerivative, double x, double fault)
+        public static Solution SimplifiedNewton(Func<double, double> func, Func<double, double> funcDerivative,
+            double x, double fault)
         {
             uint iterationsNumber = 0;
             double x0 = x;
