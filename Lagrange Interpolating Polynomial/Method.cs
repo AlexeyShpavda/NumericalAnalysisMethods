@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Lagrange_Interpolating_Polynomial
+﻿namespace Lagrange_Interpolating_Polynomial
 {
     static class Method
     {

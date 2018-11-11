@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Aitken_method
+﻿namespace Aitken_method
 {
     class Solution
     {

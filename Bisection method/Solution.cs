@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Bisection_method
+﻿namespace Bisection_method
 {
     class Solution
     {

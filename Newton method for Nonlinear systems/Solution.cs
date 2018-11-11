@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Newton_method_for_Nonlinear_systems
+﻿namespace Newton_method_for_Nonlinear_systems
 {
     class Solution
     {

@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Least_Squares_Method
+﻿namespace Least_Squares_Method
 {
     static class Method
     {
