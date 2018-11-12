@@ -2,10 +2,6 @@
 {
     class Solution
     {
-        private double _x;
-        private double _y;
-        private uint _iterationsNumber;
-
         public Solution(double x, double y, uint iterationsNumber)
         {
             X = x;
@@ -13,8 +9,10 @@
             IterationsNumber = iterationsNumber;
         }
 
-        public double X { get => _x; set => _x = value; }
-        public double Y { get => _y; set => _y = value; }
-        public uint IterationsNumber { get => _iterationsNumber; set => _iterationsNumber = value; }
+        public double X { get; set; }
+
+        public double Y { get; set; }
+
+        public uint IterationsNumber { get; set; }
     }
 }
